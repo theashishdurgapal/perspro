@@ -40,9 +40,9 @@ header {
 }
 
 .container {
+  width: 100%;
   max-width: 98rem;
   margin: 0 auto;
-  padding: 0 1.5rem;
 }
 
 .nav-brand {
@@ -51,7 +51,7 @@ header {
   justify-content: center;
   width: 11rem;
 }
-nav {
+.nav {
   width: 100%;
   display: flex;
   align-items: center;
@@ -455,6 +455,7 @@ margin-bottom: 5rem;
 footer{
   max-width:70rem;
   padding:2.5rem;
+  margin:auto;
   color:#8a8a8a;
   text-align: center;
   font-size:1.2rem;
